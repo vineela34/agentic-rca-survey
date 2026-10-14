@@ -1,0 +1,12 @@
+Search query used across all databases (IEEE Xplore, ACM Digital Library,
+SpringerLink, ScienceDirect). Date window: January 2023 to April 2026.
+
+The two clauses are separated by an exclusive OR so that each retrieved paper
+satisfies one clause but not both. The first clause targets multi-agent
+architectures for a broader range of operational problems (anomaly detection,
+fault localization). The second targets both multi-agent and single-LLM
+architectures specifically for the RCA task.
+
+(("MAS" OR "Multi-Agent System" OR "Multi-Agent" OR "AI Agents" OR "Compound AI Systems" OR "Agentic AI" OR "Autonomous Agents") AND ("Anomaly Detection" OR "Fault Localization" OR "Cloud Incident" OR "Incident Analysis"))
+OR
+(("MAS" OR "Multi-Agent System" OR "Multi-Agent" OR "AI Agents" OR "Compound AI Systems" OR "Agentic AI" OR "Autonomous Agents" OR "LLM" OR "Large Language Model") AND ("Root Cause Analysis" OR "RCA"))

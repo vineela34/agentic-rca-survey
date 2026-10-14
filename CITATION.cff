@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the paper below."
+title: "Agentic Systems for Root Cause Analysis: A Survey — Replication Package"
+abstract: >-
+  Replication package for the survey "Agentic Systems for Root Cause Analysis:
+  A Survey". Contains the search protocol, the reviewed corpus of 30 papers
+  (2023-2026), the D1-D10 rating rubric, and the per-system capability ratings.
+type: dataset
+authors:
+  - family-names: Pulagam
+    given-names: Vineela
+    affiliation: Carleton University
+  - family-names: Aston
+    given-names: Kieran
+    affiliation: Carleton University
+  - family-names: Baysal
+    given-names: Olga
+    affiliation: Carleton University
+  - family-names: Shafiq
+    given-names: M. Omair
+    affiliation: Carleton University
+license: CC-BY-4.0
+preferred-citation:
+  type: generic
+  title: "Agentic Systems for Root Cause Analysis: A Survey"
+  year: 2026
+  notes: "Under submission."
+  authors:
+    - family-names: Pulagam
+      given-names: Vineela
+    - family-names: Aston
+      given-names: Kieran
+    - family-names: Baysal
+      given-names: Olga
+    - family-names: Shafiq
+      given-names: M. Omair

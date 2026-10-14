@@ -1,0 +1,17 @@
+# Per-system ratings (D1-D10) and deployment maturity. Thresholds are in dimensions-rubric.md.
+# Ratings form a per-system profile: they are NOT summed, averaged, or ranked.
+# group = multi-agent | single-LLM-reference
+system,group,D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,deployment
+Flow-of-Action,multi-agent,2,2,2,2,1,1,1,1,0,1,L1
+DO-MARCA,multi-agent,2,2,2,2,1,1,1,0,1,1,L1
+MA-RCA,multi-agent,1,1,2,2,1,1,2,1,1,0,L3
+GraphRCA-Chorus,multi-agent,2,2,2,2,1,0,1,0,0,2,L1
+LLMaaD,multi-agent,2,2,1,1,0,1,1,0,0,1,L1
+AFG-MAS,multi-agent,1,2,2,2,1,1,1,0,1,1,L1
+Banking Five-Whys,multi-agent,1,1,2,2,1,1,1,1,1,0,L3
+DataLineage RCA,multi-agent,1,1,2,2,1,1,0,0,0,0,L1
+Bocanet,multi-agent,1,1,1,1,1,1,0,1,0,1,L1
+LLMA4ITOps,multi-agent,1,1,1,1,1,0,0,0,0,0,L1
+RCAgent,single-LLM-reference,0,0,2,2,1,0,0,1,2,1,L3
+RCACopilot,single-LLM-reference,0,0,1,2,1,1,1,1,1,0,L3
+AetherLog,single-LLM-reference,0,0,2,0,1,1,1,0,2,0,L2

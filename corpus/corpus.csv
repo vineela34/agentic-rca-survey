@@ -1,0 +1,35 @@
+# Reviewed corpus for "Agentic Systems for Root Cause Analysis: A Survey".
+# group = multi-agent | single-LLM | generic. reported_result applies to single-LLM rows only
+# and each figure is in that system's own metric/dataset/scale; values are NOT comparable across rows.
+# generic rows are retained for context and are not rated. [CONFIRM] the generic set with the authors.
+key,system,group,year,architectural_pattern,evaluation_setting,reported_result,deployment_maturity,doi,url
+fuLeveragingMultiagentFramework2025,MA-RCA,multi-agent,2025,Function-partitioned,Nezha microservices and NARI-TECH power monitoring,,L3,10.1007/s40747-025-02096-0,https://doi.org/10.1007/s40747-025-02096-0
+jinBreakingCycleRecurring2025,Banking Five-Whys,multi-agent,2025,Function-partitioned,Proprietary banking SDLC data; >5000 projects scanned,,L3,10.1109/AIOps66738.2025.00010,https://doi.org/10.1109/AIOps66738.2025.00010
+llma4itops2025,LLMA4ITOps,multi-agent,2025,Function-partitioned,Cloud operations QA dataset,,L1,10.1007/978-981-95-3346-6_36,https://doi.org/10.1007/978-981-95-3346-6_36
+yiDataLineageRCARoot2025,DataLineage RCA,multi-agent,2025,Function-partitioned,Synthetic TPC-H-derived dataset; 100 cases,,L1,10.1109/Trustcom66490.2025.00281,https://doi.org/10.1109/Trustcom66490.2025.00281
+peiFlowofActionSOPEnhanced2025,Flow-of-Action,multi-agent,2025,Hierarchical,GoogleOnlineBoutique on Kubernetes,,L1,10.1145/3701716.3715225,https://doi.org/10.1145/3701716.3715225
+bocanetMultiagentFrameworkAISupported2026,Bocanet,multi-agent,2026,Hierarchical,Single manufacturing case study; no quantitative metrics,,L1,,https://link.springer.com/chapter/10.1007/978-3-032-03538-7_15
+zou2026graph,AFG-MAS,multi-agent,2026,Hierarchical,Train-Ticket; Online-Boutique; MSDS; AIOps Challenge 2025; OpenTelemetry Demo,,L1,10.32604/cmc.2026.077908,https://doi.org/10.32604/cmc.2026.077908
+guoCrossModalCausalFusion2025,DO-MARCA,multi-agent,2025,Modality-partitioned,"Microservice benchmark: logs, metrics, traces",,L1,10.1109/ICBAIE66852.2025.11326640,https://doi.org/10.1109/ICBAIE66852.2025.11326640
+llmaad2026,LLMaaD,multi-agent,2026,Modality-partitioned (by view),BGL and HDFS log benchmarks,,L1,10.1109/CSCWD68734.2026.11581712,https://doi.org/10.1109/CSCWD68734.2026.11581712
+graphrcaChorus2026,GraphRCA-Chorus,multi-agent,2026,Decentralized,Train-Ticket; Online-Boutique; Sock-Shop,,L1,10.1109/EMC68537.2026.11441735,https://doi.org/10.1109/EMC68537.2026.11441735
+cornacchiaPromisePainReality2025,Cornacchia et al.,multi-agent,2025,Benchmark study (no pattern),AIOpsLab,,n/a,10.1145/3725783.3764388,https://doi.org/10.1145/3725783.3764388
+chenAutomaticRootCause2024,RCACopilot,single-LLM,2024,CoT with incident-specific collection,,Micro-F1 0.77; Macro-F1 0.53,L3,10.1145/3627703.3629553,https://doi.org/10.1145/3627703.3629553
+wang2024rcagent,RCAgent,single-LLM,2024,"Tool-augmented agent (OBSK, TSC)",,+8.71 METEOR vs ReAct,L3,10.1145/3627673.3680016,https://doi.org/10.1145/3627673.3680016
+royExploringLLMBased2024,Roy et al.,single-LLM,2024,ReAct with diagnostic tools,,35% accuracy,,10.1145/3663529.3663841,https://doi.org/10.1145/3663529.3663841
+aetherlog2025,AetherLog,single-LLM,2025,"Summarize, then knowledge graph",,F1 0.93,L2,10.1109/ISSRE66568.2025.00019,https://doi.org/10.1109/ISSRE66568.2025.00019
+tamo2025,TAMO,single-LLM,2025,ReAct with three tools,,84% top-1 accuracy,,10.1109/TSC.2025.3629066,https://doi.org/10.1109/TSC.2025.3629066
+shuaiRootCauseAnalysis2025,MCTS-RCA,single-LLM,2025,Monte Carlo tree search,,75% accuracy,,10.1109/ASE63991.2025.00227,https://doi.org/10.1109/ASE63991.2025.00227
+lmta2024,LMTA,single-LLM,2024,Few-shot GPT-4o,,F1 0.97,,10.1109/CASCON62161.2024.10838171,https://doi.org/10.1109/CASCON62161.2024.10838171
+integratingLLMCloudNative2026,Cloud-Native,single-LLM,2026,Fine-tuning with CoT,,F1 0.95,,10.1145/3797161.3797213,https://doi.org/10.1145/3797161.3797213
+srlrf2025,SRLRF,single-LLM,2025,Fine-tuning with random forest,,63% accuracy,,10.1145/3755881.3755906,https://doi.org/10.1145/3755881.3755906
+ganiyuAI5GTestAIDrivenSpecificationAware2025,AI5GTest,single-LLM,2025,RAG over specifications,,100% on 15 cases,,10.1145/3734477.3734703,https://doi.org/10.1145/3734477.3734703
+closingTheLoop2026,Closing-Loop,single-LLM,2026,KG-enhanced reasoning,,Alerts cut 30 to 3,,10.1007/978-981-95-5009-8_32,https://doi.org/10.1007/978-981-95-5009-8_32
+powerGrid5G2025,5G Power Grid,single-LLM,2025,RAG over fault codes and KPIs,,Not reported,,10.1109/CSCWD64889.2025.11033346,https://doi.org/10.1109/CSCWD64889.2025.11033346
+selfHealingData2025,Self-Healing Data,single-LLM,2025,LLM-augmented ETL localization,,Not reported,,10.1109/ACOIT66109.2025.11436627,https://doi.org/10.1109/ACOIT66109.2025.11436627
+failsense2025,FailSense,single-LLM,2025,Semantic trace interpretation,,Not reported,,10.1109/Wintechcon66724.2025.11429997,https://doi.org/10.1109/Wintechcon66724.2025.11429997
+mulan2024,MULAN,single-LLM,2024,Non-LLM causal method (baseline only),,Baseline only,,10.1145/3589334.3645442,https://doi.org/10.1145/3589334.3645442
+softrelMAS2025,AI-Driven MAS for Software Release Security Analysis,generic,2025,,,,,10.1109/ICICR65456.2025.00212,https://doi.org/10.1109/ICICR65456.2025.00212
+netAttackMAS2025,Real-time MAS Network Attack Detection and Incident Response,generic,2025,,,,,10.1109/SVCC65277.2025.11133641,https://doi.org/10.1109/SVCC65277.2025.11133641
+kgAgenticMemory2026,Knowledge Graphs as Unified Agentic Memory,generic,2026,,,,,,https://link.springer.com/chapter/10.1007/978-3-032-11477-8_11
+blendedRAG2025,Blended RAG-Enhanced LLM MAS for Anomaly Detection and Alert Management,generic,2025,,,,,10.1109/ICSGSC68313.2025.11288288,https://doi.org/10.1109/ICSGSC68313.2025.11288288
