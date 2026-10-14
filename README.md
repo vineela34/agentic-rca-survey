@@ -49,19 +49,6 @@ ranked. A rating of 0 records that a paper does not report the capability.
 > for a single-LLM system, each figure is in that system's own metric, dataset,
 > and scale. These values are **not comparable across rows**.
 
-## How to cite
-
-Please cite the paper:
-
-```bibtex
-@misc{pulagam2026agenticrca,
-  author       = {Pulagam, Vineela and Aston, Kieran and Baysal, Olga and Shafiq, M. Omair},
-  title        = {Agentic Systems for Root Cause Analysis: A Survey},
-  year         = {2026},
-  note         = {Under submission},
-  howpublished = {Replication package: \url{https://github.com/<org>/agentic-rca-survey}}
-}
-```
 
 ## License
 
